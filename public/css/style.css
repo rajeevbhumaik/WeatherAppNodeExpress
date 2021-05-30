@@ -49,7 +49,10 @@ html {
 }
 
 .navbar-toggler{
-    background-color: grey;
+    background-color:white;
+}
+.navbar-toggler .fa{
+   color:var(--main-color); 
 }
 
 .fa-snowflake{
