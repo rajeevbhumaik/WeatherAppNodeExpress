@@ -50,9 +50,15 @@ html {
 
 .navbar-toggler{
     background-color:white;
+    border: none;
+    outline: none;
+
 }
 .navbar-toggler .fa{
    color:var(--main-color); 
+}
+.navbar-toggler:hover{
+    background-color: khaki;
 }
 
 .fa-snowflake{
@@ -227,6 +233,8 @@ sup{
     border-radius: 3rem;
     color: white;
     font-size: 1.6rem;
+    outline:none;
+    
 }
 
 .temp_form input[type="submit"]:hover{
